@@ -41,4 +41,4 @@ app.get('/api/csrf-token', (req, res) => {
 })
 
 
-app.listen(process.env.PORT || 5000, () => console.log(`Servidor en ${port}`));
+app.listen(process.env.PORT || 5000, () => console.log(`Servidor en ${process.env.PORT}`));
