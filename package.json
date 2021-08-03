@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start":"node -r esm app.js",
+    "start":"NODE_ENV=production node -r esm app.js",
     "dev":"nodemon -r esm app.js"
   },
   "keywords": [],
